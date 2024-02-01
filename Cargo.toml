@@ -9,3 +9,4 @@ edition = "2021"
 can-dbc = "5.0.0"
 pcan-basic = "1.0.2"
 nom = { version = "7.1", features = ["alloc"] }
+tokio = { version = "1.12.0", features = ["full"] }
