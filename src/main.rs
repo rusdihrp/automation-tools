@@ -7,6 +7,7 @@ use std::thread;
 
 #[tokio::main]
 async fn main() {
+    //UsbBus::can0
     let usb_socket = match UsbCanSocket::open(UsbBus::USB1, Baudrate::Baud250K) {
         Ok(socket) => socket,
         Err(err) => {
